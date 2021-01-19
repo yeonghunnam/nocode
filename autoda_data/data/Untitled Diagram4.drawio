@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T07:11:40.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.3" etag="Gitz93BF2SpIwc7ryz2A" type="github"><diagram id="yE8NlS5TCY1opR3BT-aj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T07:41:02.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-PZrLNVw05ZCOnzKaQpL" version="14.2.3" type="github">
+  <diagram id="yE8NlS5TCY1opR3BT-aj" name="Page-1">
+    <mxGraphModel dx="986" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-1" value="C. 좌석 커팅" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-2" value="F. 다리 조립" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-3" value="B. 등받이 조립" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-4" value="S. 스태빌라이저 바 조립" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-5" value="P. 완성된 의자 패키징" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-6" value="Broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="330" as="sourcePoint" />
+            <mxPoint x="425.00000000000205" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-9" value="pub: &quot;다리조립필요&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h_JOdx-jY4gYX6mmm7aB-8">
+          <mxGeometry x="0.3955" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13.56" y="-12.4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-11" value="sub: &quot;다리조립필요&quot;" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="340" as="sourcePoint" />
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-18" value="" style="endArrow=classic;html=1;exitX=0.605;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-2" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-20" value="pub: &quot;등받이조립필요&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h_JOdx-jY4gYX6mmm7aB-18">
+          <mxGeometry x="0.5228" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-21" value="sub: 등받이조립필요" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-22" value="pub: 스태빌라이저바조립필요" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-3" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry x="-0.7316" y="-3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-24" value="sub: &quot;스태빌라이저바&quot;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-27" value="pub: &quot;완성된의자패키징&quot;" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-4" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-28" value="sub: &quot;완성된의자패키징&quot;" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-29" value="pub: &quot;출고&quot;" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-5" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-30" value="출고" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="585" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-31" value="" style="endArrow=classic;html=1;exitX=0.376;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="470" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-32" value="sub: &quot;출고&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h_JOdx-jY4gYX6mmm7aB-31">
+          <mxGeometry x="0.1925" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-33" value="조립시작" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-34" value="pub: &quot; 좌석커팅&quot;" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-33" target="h_JOdx-jY4gYX6mmm7aB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="470" y="600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-35" value="sub: &quot;좌석커팅&quot;" style="endArrow=classic;html=1;exitX=0.01;exitY=0.679;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="h_JOdx-jY4gYX6mmm7aB-6" target="h_JOdx-jY4gYX6mmm7aB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="470" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_JOdx-jY4gYX6mmm7aB-36" value="&lt;b&gt;모든 토픽에 대한 message: 의자 ID&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
